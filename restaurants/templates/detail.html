@@ -31,8 +31,7 @@
     </div>
     {% for item in restaurant.item_set.all %}
       <ul>
-        <li>{{ item.name }}</li>
-        <li>{{ item.description }}</li>
+        <li>{{ item.name }} ,  {{ item.description }}</li>
         <li>{{ item.price }}</li>
       </ul>
     {% endfor %}
